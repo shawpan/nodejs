@@ -9,7 +9,6 @@ console.log("inside main.js");
 
 request('http://www.google.com',function(error, response, body){
 	console.log('-----------------------Results of Custom Module Methods--------------------------------------');
-	
 	console.log('Summation ' + aCalculator.Add(1,2));
 
 	console.log('Subtraction ' + aCalculator.Subtract(2,1));
